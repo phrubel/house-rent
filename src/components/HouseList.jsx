@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 // import house Context
 import { HouseContext } from "./HouseContext";
 
-import House from "../components/House";
+import House from "./House";
 
 // import loading gif
 import loadingGif from "../assets/img/loading.gif";
