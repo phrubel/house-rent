@@ -11,7 +11,11 @@ const Footer = () => {
     <>
       <footer className="footer-1 bg-black text-white py-8 sm:py-12">
         <div className="container mx-auto px-4">
-          <div className="sm:flex sm:flex-wrap sm:-mx-4 md:py-4">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            className="sm:flex sm:flex-wrap sm:-mx-4 md:py-4"
+          >
             <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6">
               <h5 className="text-xl font-bold mb-6">Features</h5>
               <ul className="list-none footer-links">
@@ -114,13 +118,22 @@ const Footer = () => {
                 </h1>
               </Link>
               <div className="flex sm:justify-center xl:justify-start">
-                <a href="https://www.facebook.com/parvezhasanrubel42" className="w-8 h-8 text-center underline-none  text-white py-1 text-gray-600 cursor-pointer">
+                <a
+                  href="https://www.facebook.com/parvezhasanrubel42"
+                  className="w-8 h-8 text-center underline-none  text-white py-1 text-gray-600 cursor-pointer"
+                >
                   <FaFacebook className="text-semibold" />
                 </a>
-                <a href="https://twitter.com/phrubel42" className="w-8 h-8 text-center underline-none text-white py-1 ml-2 text-gray-600 cursor-pointer">
+                <a
+                  href="https://twitter.com/phrubel42"
+                  className="w-8 h-8 text-center underline-none text-white py-1 ml-2 text-gray-600 cursor-pointer"
+                >
                   <FaTwitterSquare className="text-semibold" />
                 </a>
-                <a href="https://www.instagram.com/phrubel42/" className="w-8 h-8 text-center underline-none text-white py-1 ml-2 text-gray-600 cursor-pointer ">
+                <a
+                  href="https://www.instagram.com/phrubel42/"
+                  className="w-8 h-8 text-center underline-none text-white py-1 ml-2 text-gray-600 cursor-pointer "
+                >
                   <FaInstagramSquare className="text-semibold" />
                 </a>
               </div>

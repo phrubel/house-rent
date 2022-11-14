@@ -13,7 +13,7 @@ const CountryDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <Menu as="div" className="dropdown relative">
+    <Menu data-aos="zoom-in-up" as="div" className="dropdown relative">
       <Menu.Button
         onClick={() => setIsOpen(!isOpen)}
         className="dropdown-btn text-left w-full"
